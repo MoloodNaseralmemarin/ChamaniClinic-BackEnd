@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ChamaniClinic.Tests/1.0.0": {
+        "runtime": {
+          "ChamaniClinic.Tests.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ChamaniClinic.Tests/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
