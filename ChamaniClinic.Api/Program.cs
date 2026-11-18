@@ -55,6 +55,12 @@ if (app.Environment.IsDevelopment())
     });
 }
 
+app.UseCors(builder => builder
+    .WithOrigins("https://dr-vahidchamani.ir")
+    .AllowAnyMethod()
+    .AllowAnyHeader()
+    .WithCredentials();
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
